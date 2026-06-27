@@ -1,0 +1,29 @@
+site_name: My Articles
+site_url: https://xinghu5.github.io/my-pre-article/
+site_description: My article collection
+site_author: xinghuo
+copyright: Copyright &copy; 2026 xinghuo
+
+repo_url: https://github.com/xinghu5/my-pre-article
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+plugins:
+  - search
